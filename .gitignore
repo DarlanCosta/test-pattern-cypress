@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+build/
+
+# Ignore logs and other generated files
+*.log
+*.txt
+*.csv
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+# Ignore Cypress generated files
+/cypress/videos/
+/cypress/screenshots/
+/cypress/fixtures/
+/cypress/results/
+/cypress/plugins/index.js
+/cypress/support/index.js
