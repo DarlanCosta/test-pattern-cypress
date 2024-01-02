@@ -1,0 +1,24 @@
+{
+  "name": "Cypress-Tests",
+  "version": "1.0.0",
+  "description": "Formulário desenvolvido em HTML e CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarlanCosta/cypress-tests.git"
+  },
+  "keywords": [],
+  "author": "Darlan Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarlanCosta/cypress-tests/issues"
+  },
+  "homepage": "https://github.com/DarlanCosta/cypress-tests#readme",
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  }
+}
